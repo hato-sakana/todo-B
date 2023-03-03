@@ -30,7 +30,7 @@
                 <p class="card-text">
                   内容 : 今日のセブは快晴
                 </p>
-                <p class="card-text">投稿者：Seed Techさん</p>
+                <p class="card-text">投稿者:Seed Techさん</p>
                 <a href="#" class="btn btn-primary">詳細へ</a>
             </div>
             <div class="card-footer text-muted">
@@ -39,7 +39,7 @@
         </div>
         </div>
         <div class="col-md-2">
-          <a href="#" class="btn btn-primary">
+          <a href="{{ route('posts.create') }}" class="btn btn-primary">
             新規投稿
           </a>
         </div>
