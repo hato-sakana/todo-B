@@ -31,6 +31,11 @@
                     <input type="textarea" name="body">
                     <input type="submit" value="投稿">
                 </form>
+                <form action="{{ route('post.store') }}" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <input type="file" name="image_at">
+                    <input type="submit" value="アップロード">
+                    </form>
             </div>
         </section>
     </main>

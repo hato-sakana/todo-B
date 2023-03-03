@@ -35,7 +35,8 @@ class PostController extends Controller
         $post->title = $request->title;
         $post->body = $request->body;
         $post->user_id = Auth::id();
-        $img = $request->file('image_at');
+        $img = $request->file('image_at');//画像カラム
+
         $post->save();
         return redirect()->route('post.index');
     }
