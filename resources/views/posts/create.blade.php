@@ -22,7 +22,7 @@
         <section class="welcome">
             <div class="contact-form">
                 <h2>記事作成</h2>
-                <form action="{{ route('post.store') }}" method="post">
+                <form action="#" method="post">
                     @csrf
                     <span>タイトル</span>
                     <input type="text" name="title">
