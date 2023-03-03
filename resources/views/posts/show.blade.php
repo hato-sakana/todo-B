@@ -29,7 +29,5 @@
         <form action="#" method="post">
             <input type="submit" value="削除" class="btn btn-delete" onclick="return confirm"(本当に消すの？)";">
         </form>
-    
-    
 </body>
 </html>
